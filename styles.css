@@ -293,6 +293,8 @@
         width: 100%;
         display: block;
         overflow: hidden;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
       }
 
       .illustration-mobile { display: block;
@@ -309,12 +311,15 @@
 
       .card__content {
         flex:1;
-        padding: 20px 24px 0px;
+        padding: 40px 24px 20px 24px;
         justify-content: space-between;
         flex-shrink: 0;
       }
       .btn{
         margin-bottom: 0px;
+      }
+      .emailSubcribe{
+        margin-top: 20px;
       }
 
     }
