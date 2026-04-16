@@ -9,6 +9,7 @@
       --charcoal: hsl(235, 18%, 26%);
       --grey: hsl(231, 7%, 60%);
       --white: hsl(0, 0%, 100%);
+      --gradient: linear-gradient(180deg, #FF6A3A 0%, #FF5478 100%);
     }
 
     body {
@@ -165,8 +166,8 @@
     }
 
     .btn:hover {
-      background: linear-gradient(90deg, hsla(345, 97%, 49%, 0.68), hsl(20,100%,60%));
-      box-shadow: 0 16px 32px hsla(4,100%,67%,0.4);
+      background: var(--gradient);
+      box-shadow: 0 16px 32px rgba(255, 84, 120, 0.50);
     }
 
     .btn:active {
@@ -318,6 +319,7 @@
       .btn{
         margin-bottom: 0px;
       }
+    
       .emailSubcribe{
         margin-top: 20px;
       }
