@@ -247,10 +247,15 @@
     @media (min-width: 0px) and (max-width: 521px) {
       
       .success-card {
+        display:flex;
+        justify-content: space-around;
         border-radius: 0;
-        padding: 150px 24px 60px;
+        padding: 150px 24px 10%;
         max-width: 100%;
         min-height: 100vh;
+      }
+      .success-card p{
+        padding-top: 0px;
       }
 
       .success-card .btn{
