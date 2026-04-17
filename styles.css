@@ -247,15 +247,12 @@
     @media (min-width: 0px) and (max-width: 521px) {
       
       .success-card {
-        display:flex;
+        /* display:flex; */
         justify-content: space-around;
         border-radius: 0;
         padding: 150px 24px 10%;
         max-width: 100%;
         min-height: 100vh;
-      }
-      .success-card p{
-        padding-top: 0px;
       }
 
       .success-card .btn{
@@ -270,7 +267,7 @@
         align-items: flex-start;
         padding: 0 0 20px  0;
         background-color: white;
-        /* min-height: 100dvh; */
+        min-height: 100dvh;
       }
 
       .card {
@@ -326,7 +323,7 @@
       }
     
       .emailSubcribe{
-        margin-top: 20px;
+        margin-top: 9%;
       }
 
     }
